@@ -3,4 +3,8 @@
 
 
 -- ====== membuat database ======
--- create database mahasiswa;
+-- create database nama_database;
+
+
+-- ====== menghapus database ======
+-- drop database nama_databse;
