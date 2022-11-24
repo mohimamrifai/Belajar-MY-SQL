@@ -1,20 +1,32 @@
 #  Belajar MY SQL
 
 
-### melihat semua database yang ada 
+### Melihat semua database yang ada 
 ```
 show databases
 ```
 
-### membuat database
+### Membuat database
 - disarankan menggunakan huruf kecil semua
 create database nama_database 
 ```
 create database nama_database
 ```
 
-### menghapus database
+### Menghapus database
 
 ```
-drop database nama_databse;
+drop database nama_database;
 ```
+
+
+### Memilih database
+
+```
+use nama_database;
+```
+
+
+
+
+

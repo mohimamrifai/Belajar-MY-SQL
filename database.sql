@@ -7,4 +7,12 @@
 
 
 -- ====== menghapus database ======
--- drop database nama_databse;
+-- drop database nama_database;
+
+
+-- ====== memilih database ======
+-- use nama_database;
+
+
+
+
