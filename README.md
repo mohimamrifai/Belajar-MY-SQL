@@ -1,16 +1,13 @@
-###  Belajar MY SQL
+#  Belajar MY SQL
 
 
-- melihat semua database yang ada 
-
+### melihat semua database yang ada 
 ```
 show databases
 ```
 
-# membuat database
-
-create database nama_database
-contoh: 
+### membuat database
+create database nama_database 
 ```
 create database users
 ```
