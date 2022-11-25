@@ -15,7 +15,14 @@ use data;
 
 
 -- ====== Melihat table ======
-SHOW TABLES;
+-- SHOW TABLES;
 
 
+-- ====== Membuat table ======
+-- CREATE TABLE nama_table (
+--     id INT,
+--     nama VARCHAR(100),
+--     harga INT,
+--     jumlah INT
+-- )
 

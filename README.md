@@ -65,6 +65,8 @@ YEAR        => YYYY                     => 2022
 - FALSE | false
 
 
+
+
 ## TABLE
 
 ### Melihat Table
@@ -73,6 +75,16 @@ YEAR        => YYYY                     => 2022
 SHOW TABLES;
 ```
 
+### Membuat Table
+
+```
+CREATE TABLE nama_table (
+    id INT,
+    nama VARCHAR(100),
+    harga INT,
+    jumlah INT
+)
+```
 
 
 
