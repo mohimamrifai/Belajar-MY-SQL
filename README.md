@@ -36,6 +36,20 @@ use nama_database;
 - Floating point, pecahan
 - Decimal
 
+### Tipe Data String
+- CHAR
+- VARCHAR
+- TEXT
+- ENUM
+
+```
+Char digunakan untuk menyimpan string dengan panjang tetap sedangkan, varchar digunakan untuk menyimpan string yang memiliki panjang bervariasi.
+```
+
+``` Enum("pria", "wanita")```
+
+
+
 
 
 
