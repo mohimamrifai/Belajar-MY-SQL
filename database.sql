@@ -26,3 +26,8 @@ use data;
 --     jumlah INT
 -- )
 
+
+
+-- ====== Melihat struktur tabel ======
+-- describe nama_table;
+-- desc nama_table;

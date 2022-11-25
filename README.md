@@ -86,6 +86,14 @@ CREATE TABLE nama_table (
 )
 ```
 
+### Melihat struktur table
+
+``` 
+describe nama_table;
+OR
+desc nama_table;
+```
+
 
 
 
