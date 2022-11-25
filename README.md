@@ -94,6 +94,16 @@ OR
 desc nama_table;
 ```
 
+### Mengubah Table
+
+```
+ALTER TABLE nama_table
+    ADD COLUMN nama_column TEXT,
+    DROP COLUMN nama_column,
+    RENAME COLUMN nama TO nama_baru,
+    MODIFY nama VARCHAR (100) AFTER id;
+```
+
 
 
 
