@@ -145,7 +145,15 @@ INSERT INTO nama_table(id, nama, umur, email)
 VALUES ("001", "imam", "20", "imam@gmail.com");
 ```
 
+### SELECT DATA
 
+```
+SELECT * FROM nama_table
+// untuk selecting semua data
+
+SELECT id, nama FROM nama_table;
+// untuk selecting kolom id dan nama saja
+```
 
 
 
