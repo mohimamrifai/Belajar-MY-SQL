@@ -176,6 +176,32 @@ UPDATE nama_table SET nama = "syamsul" WHERE id = 3;
 DELETE FROM nama_table WHERE id = 3;
 ```
 
+### ALIAS UNTUK KOLOM
+
+```
+SELECT id       AS Kode,
+       name     AS Nama,
+       category AS Kategori,
+       price    AS Harga,
+       quantity AS Jumlah
+FROM products;
+```
+
+### ALIAS UNTUK TABLE
+
+```
+SELECT p.id       AS Kode,
+       p.name     AS Nama,
+       p.category AS Kategori,
+       p.price    AS Harga,
+       p.quantity AS Jumlah
+FROM products AS p;
+```
+
+
+
+
+
 
 
 
