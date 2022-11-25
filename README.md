@@ -28,14 +28,13 @@ use nama_database;
 ```
 
 
-# Tipe Data
+## Tipe Data
 
 
 ### Tipe Data Number
-
-~ Integer, Bilangan bulat
-~ Floating point, pecahan
-~ Decimal
+- Integer, Bilangan bulat
+- Floating point, pecahan
+- Decimal
 
 
 
