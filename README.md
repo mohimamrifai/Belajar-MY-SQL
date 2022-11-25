@@ -65,6 +65,13 @@ YEAR        => YYYY                     => 2022
 - FALSE | false
 
 
+## TABLE
+
+### Melihat Table
+
+```
+SHOW TABLES;
+```
 
 
 

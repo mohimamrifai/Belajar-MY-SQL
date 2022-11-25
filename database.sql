@@ -11,8 +11,11 @@
 
 
 -- ====== memilih database ======
--- use nama_database;
+use data;
 
+
+-- ====== Melihat table ======
+SHOW TABLES;
 
 
 
