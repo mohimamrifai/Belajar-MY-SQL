@@ -198,6 +198,21 @@ SELECT p.id       AS Kode,
 FROM products AS p;
 ```
 
+### AND dan OR operator
+
+```
+SELECT *
+    FROM products
+    WHERE quantity > 100
+    AND price > 20000;
+
+SELECT *
+    FROM products
+    WHERE quantity > 100
+    OR price > 20000;
+```
+
+
 
 
 
