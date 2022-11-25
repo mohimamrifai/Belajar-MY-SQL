@@ -59,6 +59,12 @@ TIME        => HH-MM-SS => 10:10:10
 YEAR        => YYYY                     => 2022
 ```
 
+### Tipe data Boolean
+
+- TRUE | true
+- FALSE | false
+
+
 
 
 
