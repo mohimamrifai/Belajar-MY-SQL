@@ -104,6 +104,38 @@ ALTER TABLE nama_table
     MODIFY nama VARCHAR (100) AFTER id;
 ```
 
+### NULL VALUE
+
+- nilai ketika kita tidak mengisi nilai kedalam kolom
+- ketika kolom tidak boleh NULL, maka bisa ditambahkan NOT NULL
+
+```
+CREATE TABLE nama_table (
+    id INT NOT NULL,
+    nama VARCHAR(100),
+    harga INT,
+    jumlah INT
+)
+```
+
+### DEFAULT VALUE
+
+- nilai default yang akan diberikan ketika kita tidak mengisi data pada kolom
+
+```
+CREATE TABLE nama_table (
+    id INT,
+    nama VARCHAR(100),
+    harga INT DEFAULT 0,
+    jumlah INT DEFAULT 0
+)
+```
+
+### Menghapus table
+
+```
+DROP TABLE nama_table;
+```
 
 
 

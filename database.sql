@@ -19,15 +19,21 @@ use data;
 
 
 -- ====== Membuat table ======
--- CREATE TABLE nama_table (
+-- CREATE TABLE mahasiswa (
 --     id INT,
 --     nama VARCHAR(100),
---     harga INT,
---     jumlah INT
+--     harga INT NOT NULL DEFAULT 0,
+--     jumlah INT NOT NULL DEFAULT 0
 -- )
 
 
+-- ALTER TABLE mahasiswa ADD waktu_dibuat TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP;
+-- DROP TABLE nama_table;
+
 
 -- ====== Melihat struktur tabel ======
--- describe nama_table;
+describe mahasiswa;
 -- desc nama_table;
+
+
+
