@@ -7,7 +7,8 @@ show databases
 ```
 
 ### Membuat database
-- disarankan menggunakan huruf kecil semua
+- disarankan menggunakan huruf kecil semua \n
+
 create database nama_database 
 ```
 create database nama_database
@@ -25,6 +26,19 @@ drop database nama_database;
 ```
 use nama_database;
 ```
+
+
+# Tipe Data
+
+
+### Tipe Data Number
+
+~ Integer, Bilangan bulat
+~ Floating point, pecahan
+~ Decimal
+
+
+
 
 
 
