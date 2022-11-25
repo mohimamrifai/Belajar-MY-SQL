@@ -138,6 +138,16 @@ DROP TABLE nama_table;
 ```
 
 
+### INSERT DATA
+
+```
+INSERT INTO nama_table(id, nama, umur, email)
+VALUES ("001", "imam", "20", "imam@gmail.com");
+```
+
+
+
+
 
 
 
