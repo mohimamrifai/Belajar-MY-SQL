@@ -156,6 +156,29 @@ SELECT id, nama FROM nama_table;
 ```
 
 
+### WHERE CLAUSE
+
+```
+SELECT * FROM nama_table WHERE id = 1;
+SELECT * FROM nama_table WHERE nama = "imam";
+```
+
+
+### UPDATE DATA
+
+```
+UPDATE nama_table SET nama = "syamsul" WHERE id = 3;
+```
+
+### DELETE DATA
+
+```
+DELETE FROM nama_table WHERE id = 3;
+```
+
+
+
+
 
 
 
