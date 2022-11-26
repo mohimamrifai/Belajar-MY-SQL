@@ -213,6 +213,24 @@ SELECT *
 ```
 
 
+### LIKE operator
+
+- sangat lambat
+
+``` 
+SELECT * FROM nama_table WHERE name LIKE %mam%
+```
+
+### IS NULL
+
+```
+SELECT * FROM nama_table WHERE deskripsi IS NULL
+or
+SELECT * FROM nama_table WHERE deskripsi IS NOT NULL
+```
+
+
+
 
 
 
