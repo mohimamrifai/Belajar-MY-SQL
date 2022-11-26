@@ -250,6 +250,13 @@ SELECT * FROM nama_table ORDER BY id LIMIT 2, 2;
 
 ```
 
+### SELECT DISTINCT DATA
+
+Menghapus data duplikat.
+
+```
+SELECT DISTINCT category FROM nama_table; 
+```
 
 
 
