@@ -258,6 +258,47 @@ Menghapus data duplikat.
 SELECT DISTINCT category FROM nama_table; 
 ```
 
+### AUTO INCREMENT
+
+```
+CREATE TABLE admin
+(
+    id         INT          NOT NULL AUTO_INCREMENT,
+    first_name VARCHAR(100) NOT NULL,
+    last_name  VARCHAR(100) NOT NULL,
+    PRIMARY KEY (id)
+);
+```
+
+###  GRUP BY
+
+```
+SELECT COUNT(id) as 'Total Product', category
+FROM products
+GROUP BY category;
+
+SELECT MAX(price) as 'Product Termahal', category
+FROM products
+GROUP BY category;
+```
+
+
+### FULL TEXT SEACRH
+
+- tapi tidak direkomendasikan karena MYSQL tidak untuk database searcing
+
+```
+ALTER TABLE products
+    ADD FULLTEXT product_fulltext (name, description);
+
+// cara penggunaan
+SELECT *
+FROM products
+WHERE MATCH(name, description)
+            AGAINST('ayam' IN NATURAL LANGUAGE MODE);
+```
+
+### 
 
 
 
