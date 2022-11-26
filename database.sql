@@ -13,6 +13,10 @@
 -- ====== memilih database ======
 use data;
 
+-- SELECT * FROM users ORDER BY id LIMIT 2;
+-- SELECT * FROM users ORDER BY id LIMIT 2, 2;
+
+-- select id, nama from users;
 
 -- ====== Melihat table ======
 -- SHOW TABLES;
@@ -32,8 +36,14 @@ use data;
 
 
 -- ====== Melihat struktur tabel ======
-describe mahasiswa;
+-- describe mahasiswa;
 -- desc nama_table;
 
 
-
+-- ====== Menambahkan data ke table ======
+-- INSERT INTO users(id, nama, umur, email)
+-- VALUES ("", "deri", "20", "imam@gmail.com"),
+--         ("", "samsul", "20", "imam@gmail.com"),
+--         ("", "wawan", "20", "imam@gmail.com"),
+--         ("", "muksal", "20", "imam@gmail.com"),
+--         ("", "arif", "20", "imam@gmail.com");

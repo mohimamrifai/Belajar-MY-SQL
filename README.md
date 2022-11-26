@@ -221,13 +221,16 @@ SELECT *
 SELECT * FROM nama_table WHERE name LIKE %mam%
 ```
 
-### IS NULL
+### IS NULL | IS NOT NULL
 
 ```
 SELECT * FROM nama_table WHERE deskripsi IS NULL
 or
 SELECT * FROM nama_table WHERE deskripsi IS NOT NULL
 ```
+
+
+### 
 
 
 
