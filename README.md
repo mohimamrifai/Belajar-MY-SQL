@@ -230,7 +230,26 @@ SELECT * FROM nama_table WHERE deskripsi IS NOT NULL
 ```
 
 
-### 
+### ORDER BY CLAUSE
+
+Jenis urutan
+- ASC => DEFAULT
+- DESC
+
+```
+SELECT * FROM nama_table ORDER BY price DESC
+```
+
+### LIMIT CLAUSE
+
+```
+SELECT * FROM nama_table ORDER BY id LIMIT 2;
+
+// skip hasil query
+SELECT * FROM nama_table ORDER BY id LIMIT 2, 2;
+
+```
+
 
 
 
