@@ -298,7 +298,42 @@ WHERE MATCH(name, description)
             AGAINST('ayam' IN NATURAL LANGUAGE MODE);
 ```
 
-### 
+# RELASI ANTAR TABEL
+
+### FOREIGN KEY
+
+```
+CREATE TABLE wishlist
+(
+    id          INT         NOT NULL AUTO_INCREMENT,
+    id_product  VARCHAR(10) NOT NULL,
+    description TEXT,
+    PRIMARY KEY (id),
+    CONSTRAINT fk_wishlist_product
+        FOREIGN KEY (id_product) REFERENCES products (id)
+) ENGINE = InnoDB;
+```
+
+### MENGHAPUS DATA YANG BERELASI DENGAN TABEL LAIN
+
+```
+BEHAVIOR    | ON DELETE             | ON UPDATE
+==========================================================
+RESTRICT    | ditolak               | ditolak
+CASCADE     | data akan di hapus    | data akan dihapus
+NO ACTION   | data akan dibiarkan   | data akan dibiarkan
+SET NULL    | diubah jadi null      | diubah jadi null
+```
+
+" cara penggunaan "
+```
+ALTER TABLE wishlist
+    ADD CONSTRAINT fk_wishlist_product
+        FOREIGN KEY (id_product) REFERENCES products (id)
+            ON DELETE CASCADE ON UPDATE CASCADE;
+```
+
+
 
 
 
